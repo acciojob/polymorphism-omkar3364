@@ -17,6 +17,6 @@ public class Main {
 
         System.out.println(p.product(2,4));
         System.out.println(p.product(2,3,4));
-        System.out.println(p.product(2.5,3.5));
+        System.out.println(p.product((double)2.5F, (double)3.5F));
     }
 }
